@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instalar Certificado WiFi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f5f5f5;
+            padding: 30px;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:active {
+            background: #0056b3;
+        }
+
+        .steps {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Instalar Certificado WiFi</h1>
+
+        <p>1. Descarga el certificado</p>
+        <button onclick="descargar()">Descargar certificado</button>
+
+        <div class="steps">
+            <p><b>2. Abre tu carpeta "Descargas"</b></p>
+            <p><b>3. Extrae el archivo (si es ZIP)</b></p>
+
+        </div>
+    </div>
+
+    <script>
+        function descargar() {
+            window.location.href = "https://drive.google.com/file/d/15FkvhxKX6TEAQKMFpH490petdtexdQO9/view?usp=sharing";
+        }
+    </script>
+
+</body>
+
+</html>
